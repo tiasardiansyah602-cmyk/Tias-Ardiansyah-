@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Tias Ardiansyah</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            background:#f4f4f4;
+            color:#333;
+        }
+
+        header{
+            background:#0077cc;
+            color:white;
+            text-align:center;
+            padding:50px 20px;
+        }
+
+        header h1{
+            font-size:40px;
+        }
+
+        header p{
+            margin-top:10px;
+            font-size:18px;
+        }
+
+        section{
+            max-width:900px;
+            margin:30px auto;
+            padding:20px;
+            background:white;
+            border-radius:10px;
+            box-shadow:0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        h2{
+            color:#0077cc;
+            margin-bottom:15px;
+        }
+
+        .project{
+            margin-bottom:15px;
+            padding:15px;
+            background:#f9f9f9;
+            border-left:5px solid #0077cc;
+        }
+
+        footer{
+            text-align:center;
+            padding:20px;
+            background:#0077cc;
+            color:white;
+            margin-top:30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Tias Ardiansyah</h1>
+        <p>Pelajar SMK PLUS AL FARHAN</p>
+    </header>
+
+    <section>
+        <h2>Tentang Saya</h2>
+        <p>
+            Halo! Saya Tias Ardiansyah, seorang pelajar di SMK PLUS AL FARHAN.
+            Saya memiliki minat dalam bidang teknologi, desain, dan pengembangan web.
+            Saya senang mempelajari hal-hal baru dan terus mengembangkan keterampilan saya.
+        </p>
+    </section>
+
+    <section>
+        <h2>Keahlian</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>Desain Grafis</li>
+            <li>Microsoft Office</li>
+            <li>Editing Foto & Video</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Proyek</h2>
+
+        <div class="project">
+            <h3>Desain Cover Buku</h3>
+            <p>Membuat desain cover buku bertema persahabatan dan pendidikan.</p>
+        </div>
+
+        <div class="project">
+            <h3>Website Portofolio</h3>
+            <p>Membangun website portofolio pribadi menggunakan HTML dan CSS.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Kontak</h2>
+        <p>Email: emailanda@example.com</p>
+        <p>Instagram: @usernameanda</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Tias Ardiansyah | SMK PLUS AL FARHAN</p>
+    </footer>
+
+</body>
+</html>
